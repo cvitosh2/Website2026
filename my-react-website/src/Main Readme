@@ -1,0 +1,15 @@
+Vite will pre-bundle the source files to speed up page loading and convert CommonJS / UMD modules to ESM.
+go to route folder my-react-website
+npm run dev
+got to http://localhost:5173/
+
+SRC
+All of your application's assets, such as images, videos, and other files, must be stored in the src folder because Vite automatically rebases all URLs inside index.html.
+
+App.jsx and main.jsx
+The app.jsx file is the base component that serves as a container for all of the other components used in the application.
+The main.jsx file is where you target the root id from the index.html and render all the components used in the application.
+
+index.css and app.css
+These files contain all of the CSS styles used in the program. You can add your own CSS file or change the style.
+
