@@ -1,15 +1,13 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import path from "path";
-/*import tailwindcss from "@tailwindcss/vite";*/
-/*import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";*/
+import path from 'path'
 
-// https://vite.dev/config/
 export default defineConfig({
+  base: '/Website2026/',
   plugins: [react()],
   resolve: {
     alias: {
-      "@": path.resolve(import.meta.dirname, "./src"),
+      '@': path.resolve(import.meta.dirname, './src'),
     },
   },
-});
+})
