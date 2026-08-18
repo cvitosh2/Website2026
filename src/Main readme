@@ -1,7 +1,0 @@
-
-npm create vite@latest my-react-website -- --template react
-cd my-react-website
-npm run dev or npx vite
-
-
-go to http://localhost:5173/
