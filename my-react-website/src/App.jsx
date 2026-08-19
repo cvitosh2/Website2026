@@ -28,10 +28,12 @@ function Router() {
 }
   
   function App() {
+  const routerBase = import.meta.env.BASE_URL === './' ? '/' : import.meta.env.BASE_URL.replace(/\/$/, '')
+
   return (
-        <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, "")}>
-          <Router />
-        </WouterRouter>
+    <WouterRouter base={routerBase}>
+      <Router />
+    </WouterRouter>
   );
 }
 
