@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import path from 'path'
 
 export default defineConfig({
-  base: '/Website2026',
+  base: '/Website2026/',
   plugins: [react()],
   resolve: {
     alias: {
@@ -11,3 +11,4 @@ export default defineConfig({
     },
   },
 })
+  

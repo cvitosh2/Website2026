@@ -2,7 +2,7 @@
   "name": "my-react-website",
   "private": true,
   "version": "0.0.0",
-  "homepage":"https://cvitosh2.github.io/Website2026/",
+  "homepage": "https://cvitosh2.github.io/Website2026/",
   "type": "module",
   "scripts": {
     "dev": "vite",
