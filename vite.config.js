@@ -4,6 +4,9 @@ import path from 'path'
 
 export default defineConfig({
   base: '/Website2026/',
+  build: {
+    outDir: 'docs'  // Add this line
+  },
   plugins: [react()],
   resolve: {
     alias: {

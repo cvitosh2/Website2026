@@ -1,10 +1,10 @@
 
 import Navbar from "@/Components/Navbar";
 import EventCard from "@/Components/EventCard";
-import wedding from "@/assets/Pics/wedding.jpeg";
-import church from "@/assets/Pics/church.jpeg";
-import birthdaycake from "@/assets/Pics/birthdaycake.jpg";
-import reunion from "@/assets/Pics/reunion.jpeg";
+import wedding from "@/assets/pics/wedding.jpeg";
+import church from "@/assets/pics/church.jpeg";
+import birthdaycake from "@/assets/pics/birthdaycake.jpg";
+import reunion from "@/assets/pics/reunion.jpeg";
 import Footer from "@/Components/Footer";
 
 const eventData = [
